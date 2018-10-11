@@ -1,0 +1,39 @@
+<div class="container">
+	
+<h1>contacto</h1>
+
+
+<!-- para usar viewchild hay que agregar un valor de variable al elemento con el #-->
+<div id="texto" #textos>
+
+	<!--appResaltado hace referencia a una directiva que se aplica al elemento que la contiene -->
+	<p appResaltado >
+		Esta es la pagina de contacto, puedes enviarnos cualquier duda
+	</p>
+</div>
+
+<!--
+Tamaño del slider
+<input type="number" [(ngModel)]="widthSlider" (keyup.enter)="cargarSlider()">
+<button (click)="resetearSlider()">Resetear valor</button>
+
+<div *ngIf="anchoSlider">
+
+	 Cargar un componente hijo
+	 [] dentro de los corchetes se puede enviar una variable con un valor
+	utilizado de forma local 
+	<slider [ancho]="anchoSlider"
+			[etiquetas]="captions"
+
+
+			(conseguirAutor)="getAutor($event)"
+
+	></slider>
+</div>
+
+
+Se muestran los valores del componente hijo
+{{autor.nombre + "  " + autor.web}}
+
+-->
+</div>
